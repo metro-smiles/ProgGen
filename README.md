@@ -23,7 +23,6 @@ The task of estimating the world model describing the dynamics of a real world p
   * [Setup](#Setup)
   * [Execution](#Execution)
   * [Citation](#Citation)
-  * [License](#License)
 ------
 
 
@@ -50,7 +49,10 @@ $ python learn_cont_param.py
 ## Citation
 
 ```
-@inproceedings{
+@inproceedings{tang2025programmatic,
+  title={Programmatic Video Prediction Using Large Language Models},
+  author={Tang, Hao and Ellis, Kevin and Lohit, Suhas and Jones, Michael J and Chatterjee, Moitreya},
+  booktitle={ICLR 2025 Workshop on World Models: Understanding, Modelling and Scaling}
 }
 ```
 
