@@ -20,6 +20,8 @@ The task of estimating the world model describing the dynamics of a real world p
 ## Table of contents
 -----
   * [Installation](#Installation)
+  * [Setup](#Setup)
+  * [Execution](#Execution)
   * [Citation](#Citation)
   * [License](#License)
 ------
@@ -29,11 +31,19 @@ The task of estimating the world model describing the dynamics of a real world p
 
 In order to install the requisite libraries, please run the following:
 ```
-sh Install.sh
+$ sh Install.sh
 ```
 
+# Setup
 
-## Acknowledgements
+Download the dataset in hdf5 format from this [link](https://huggingface.co/datasets/magicr/phyworld) and place it under: ./proggen/data/downloaded_datasets/
+
+# Execution
+
+In order to run the code, please run the following command from the root folder:
+```
+$ python learn_cont_param.py
+```
 
 
 
