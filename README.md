@@ -7,7 +7,7 @@ This repository contains the implementation of the paper:
 International Conference on Learning Representations (**ICLR**) Workshops, 2025
 
 
-## [Website](https://github.com/metro-smiles/ProgGen) |  [Paper]() | [Video]()
+## [Website](https://github.com/metro-smiles/ProgGen) |  [Paper]() 
 
 ## Summary
 
@@ -27,6 +27,10 @@ The task of estimating the world model describing the dynamics of a real world p
 
 # Installation
 
+In order to install the requisite libraries, please run the following:
+```
+sh Install.sh
+```
 
 
 ## Acknowledgements
